@@ -1,0 +1,32 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Account - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Administrator\AppData\Local\Temp\RSP963.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Account.pdb" /machine:I386 /out:"Release/Account.exe" 
+.\Release\Account.obj
+.\Release\AccountDlg.obj
+.\Release\AccountInfoDlg.obj
+.\Release\FileOperation.obj
+.\Release\StdAfx.obj
+.\Release\Account.res
+]
+Creating command line "link.exe @C:\Users\Administrator\AppData\Local\Temp\RSP963.tmp"
+<h3>Output Window</h3>
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/Account.bsc"  .\Release\StdAfx.sbr .\Release\Account.sbr .\Release\AccountDlg.sbr .\Release\AccountInfoDlg.sbr .\Release\FileOperation.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Account.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
